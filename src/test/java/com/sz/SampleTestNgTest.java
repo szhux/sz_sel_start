@@ -17,7 +17,7 @@ public class SampleTestNgTest extends TestNgTestBase {
     homepage = PageFactory.initElements(driver, HomePage.class);
   }
 
-//  @Test
+  @Test
   public void testHomePageHasAHeader() {
     driver.get(baseUrl);
     Assert.assertFalse("".equals(homepage.header.getText()));

@@ -3,14 +3,15 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.sz.Login">
+      <class name="com.sz.TesterBeginnerA">
         <methods>
-          <include name="tearDown"/>
-          <include name="testLogin"/>
           <include name="initTestSuite"/>
           <include name="initWebDriver"/>
+          <include name="initPageObjects"/>
+          <include name="testFindOnYaRu"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- com.sz.Login -->
+      </class> <!-- com.sz.TesterBeginnerA -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
